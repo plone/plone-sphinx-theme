@@ -2,3 +2,4 @@
 - Fix CHANGES.md content for automatic updates upon releases. @stevepiercy
 - Remove Python 3.9 from trove classifiers. @stevepiercy
 - Add GitHub action to deploy documentation to GitHub Pages. @stevepiercy
+- Add Netlify to Makefile and configuration. @stevepiercy

@@ -216,5 +216,11 @@ kitchen-sink-update:  ## Copy Kitchen Sink documentation files to Plone Sphinx T
 rtd-pr-preview: bin/python  ## Build pull request preview on Read the Docs
 	cd $(DOCS_DIR) && $(SPHINXBUILD) -b html $(ALLSPHINXOPTS) ${READTHEDOCS_OUTPUT}/html/
 
+.PHONY: netlify
+netlify:
+	pip install -e ".[doc]"
+	pip install -r requirements-netlify.txt
+	cd $(DOCS_DIR) && sphinx-build -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html && cp ./netlify_robots.txt $(BUILDDIR)/html/robots.txt
+
 .PHONY: all
 all: clean vale linkcheck html  ## Clean docs build, then run vale and linkcheck, and build html

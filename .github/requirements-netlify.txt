@@ -1,0 +1,22 @@
+# From https://dist.plone.org/release/6-latest/constraints.txt
+pip==23.2
+setuptools==68.0.0
+wheel==0.40.0
+
+# Documentation
+graphviz
+lesscpy
+linkify-it-py
+myst-parser
+sphinx-autobuild
+sphinx-book-theme
+sphinx-copybutton
+sphinx-design  # Documentation only
+sphinx-examples  # Documentation only
+sphinx-notfound-page  # Documentation only
+sphinx-reredirects
+sphinx-sitemap
+sphinx-togglebutton
+sphinxcontrib-video
+sphinxext-opengraph
+vale==2.30.0
