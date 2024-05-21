@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 0.0.5 (2024-05-20)
+
+### Internal changes
+
+- Cancel builds when there are no changes to documentation. @stevepiercy [Issue #20](https://github.com/plone/plone-sphinx-theme/issues/20)
+
 ## 0.0.4 (2024-05-20)
 
 ### Internal changes
