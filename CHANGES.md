@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.5 (2025-02-19)
+
+### Bug fixes
+
+- Restore the height of inline images to the same as that of a line of text. @stevepiercy [Issue #54](https://github.com/plone/plone-sphinx-theme/issues/54)
+
 ## 1.0.4 (2025-01-19)
 
 ### New features
