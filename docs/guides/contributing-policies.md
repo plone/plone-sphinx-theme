@@ -24,10 +24,10 @@ To develop your own theme based on Plone Sphinx Theme, see {doc}`develop`.
 ## Grant permission to publish
 
 Before you contribute, you must give permission to publish your contribution according to the license that Plone uses.
-You may give that permission by signing the [Plone Contributor Agreement](https://plone.org/foundation/contributors-agreement).
+You may give that permission by signing the [Plone Contributor Agreement](https://plone.org/foundation/contributors-agreement){octicon}`link-external;1em;sd-text-info`.
 It's a one-time only process.
 
-The Plone Sphinx Theme Documentation is licensed under the [GNU General Public License, version 2 (GPLv2)](https://github.com/plone/plone-sphinx-theme/blob/main/LICENSE).
+The Plone Sphinx Theme Documentation is licensed under the [GNU General Public License, version 2 (GPLv2)](https://github.com/plone/plone-sphinx-theme/blob/main/LICENSE){octicon}`link-external;1em;sd-text-info`.
 A copy of the license is included in the root of this repository.
 
 A volunteer member of the Plone Foundation will review your signed agreement.
@@ -44,7 +44,7 @@ Sign the Plone Contributor Agreement
 ```
 
 ```{seealso}
--   [Plone License FAQ](https://plone.org/foundation/copyright-licensing-logo/license-faq)
+-   [Plone License FAQ](https://plone.org/foundation/copyright-licensing-logo/license-faq){octicon}`link-external;1em;sd-text-info`
 ```
 
 
@@ -52,5 +52,5 @@ Sign the Plone Contributor Agreement
 
 ## Code of Conduct
 
-The Plone Foundation has published a [Code of Conduct](https://plone.org/foundation/materials/foundation-resolutions/code-of-conduct).
+The Plone Foundation has published a [Code of Conduct](https://plone.org/foundation/materials/foundation-resolutions/code-of-conduct){octicon}`link-external;1em;sd-text-info`.
 All contributors to the Plone Documentation follow the Code of Conduct.
