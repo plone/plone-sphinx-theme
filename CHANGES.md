@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.1.1 (2025-03-06)
+
+### Internal changes
+
+- Update dependencies, and remove failing Vale regular expressions. @stevepiercy [Issue #62](https://github.com/plone/plone-sphinx-theme/issues/62)
+
 ## 1.1.0 (2025-03-02)
 
 ### Internal changes

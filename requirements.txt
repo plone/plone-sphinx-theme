@@ -2,17 +2,17 @@
 #    uv pip compile pyproject.toml -o requirements.txt
 accessible-pygments==0.0.5
     # via pydata-sphinx-theme
-alabaster==0.7.16
+alabaster==1.0.0
     # via sphinx
-babel==2.16.0
+babel==2.17.0
     # via
     #   pydata-sphinx-theme
     #   sphinx
-beautifulsoup4==4.12.3
+beautifulsoup4==4.13.3
     # via pydata-sphinx-theme
-certifi==2024.8.30
+certifi==2025.1.31
     # via requests
-charset-normalizer==3.4.0
+charset-normalizer==3.4.1
     # via requests
 docutils==0.21.2
     # via
@@ -23,7 +23,7 @@ idna==3.10
     # via requests
 imagesize==1.4.1
     # via sphinx
-jinja2==3.1.4
+jinja2==3.1.6
     # via
     #   myst-parser
     #   sphinx
@@ -45,7 +45,7 @@ packaging==24.2
     #   sphinx
 pydata-sphinx-theme==0.15.4
     # via sphinx-book-theme
-pygments==2.18.0
+pygments==2.19.1
     # via
     #   accessible-pygments
     #   pydata-sphinx-theme
@@ -54,11 +54,13 @@ pyyaml==6.0.2
     # via myst-parser
 requests==2.32.3
     # via sphinx
+roman-numerals-py==3.1.0
+    # via sphinx
 snowballstemmer==2.2.0
     # via sphinx
 soupsieve==2.6
     # via beautifulsoup4
-sphinx==7.4.7
+sphinx==8.2.3
     # via
     #   myst-parser
     #   pydata-sphinx-theme
@@ -78,6 +80,8 @@ sphinxcontrib-qthelp==2.0.0
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 typing-extensions==4.12.2
-    # via pydata-sphinx-theme
-urllib3==2.2.3
+    # via
+    #   beautifulsoup4
+    #   pydata-sphinx-theme
+urllib3==2.3.0
     # via requests
