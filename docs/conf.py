@@ -76,6 +76,7 @@ extensions = [
     "sphinxcontrib.video",
     "sphinxcontrib.youtube",
     "sphinxext.opengraph",
+    "sphinx_tippy",
 ]
 
 # If true, the Docutils Smart Quotes transform, originally based on SmartyPants
@@ -271,6 +272,7 @@ html_title = "%(project)s v%(release)s" % {"project": project, "release": releas
 html_use_index = True
 
 # html_css_files = ["custom.css", ("print.css", {"media": "print"})]
+html_css_files = ["tippy.css"]
 # html_js_files = [
 #     "patch_scrollToActive.js",
 #     "search_shortcut.js",
