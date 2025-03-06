@@ -17,12 +17,12 @@ Plone Sphinx Theme inherits theme-specific elements from its parent themes, but 
 You can view them on display in their documentation.
 
 ```{note}
-If a parent theme's elements do not display correctly in Plone Sphinx Theme, please [open an issue](https://github.com/plone/plone-sphinx-theme/issues/new).
+If a parent theme's elements do not display correctly in Plone Sphinx Theme, please [open an issue](https://github.com/plone/plone-sphinx-theme/issues/new){octicon}`link-external;1em;sd-text-info`.
 ```
 
--   [Sphinx Book Theme](https://sphinx-book-theme.readthedocs.io/en/latest/reference/special-theme-elements.html)
--   [PyData Library Styles](https://pydata-sphinx-theme.readthedocs.io/en/latest/examples/pydata.html)
--   [PyData Execution Libraries](https://pydata-sphinx-theme.readthedocs.io/en/latest/examples/execution.html)
+-   [Sphinx Book Theme](https://sphinx-book-theme.readthedocs.io/en/latest/reference/special-theme-elements.html){octicon}`link-external;1em;sd-text-info`
+-   [PyData Library Styles](https://pydata-sphinx-theme.readthedocs.io/en/latest/examples/pydata.html){octicon}`link-external;1em;sd-text-info`
+-   [PyData Execution Libraries](https://pydata-sphinx-theme.readthedocs.io/en/latest/examples/execution.html){octicon}`link-external;1em;sd-text-info`
 ````
 
 
@@ -102,5 +102,5 @@ Wow, a note with an image in a margin!
 ```{versionremoved} v0.1.1
 Here's a version removed message.
 
-We also support *italic*, **bold**, `code`, [links](https://www.sphinx-doc.org/), and more.
+We also support *italic*, **bold**, `code`, [links](https://www.sphinx-doc.org/){octicon}`link-external;1em;sd-text-info`, and more.
 ```

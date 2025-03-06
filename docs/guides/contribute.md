@@ -59,7 +59,7 @@ You can edit documentation located in the directory {file}`docs`, except for the
 
 ```{danger}
 Do not directly edit files in the directory {file}`docs/reference/kitchen-sink`.
-These files are copied from the source of the demonstration website [Sphinx Themes Gallery](https://sphinx-themes.org/) whenever there is an update to it.
+These files are copied from the source of the demonstration website [Sphinx Themes Gallery](https://sphinx-themes.org/){octicon}`link-external;1em;sd-text-info` whenever there is an update to it.
 See {ref}`update-kitchen-sink-demonstration` for details.
 ```
 
@@ -68,7 +68,7 @@ See {ref}`update-kitchen-sink-demonstration` for details.
 
 ### Update Kitchen Sink demonstration
 
-From time to time, the demonstration files for [Sphinx Themes Gallery](https://sphinx-themes.org/) need to be updated.
+From time to time, the demonstration files for [Sphinx Themes Gallery](https://sphinx-themes.org/){octicon}`link-external;1em;sd-text-info` need to be updated.
 Plone Sphinx Theme uses these files as a demonstration for its styles.
 To copy these updated files to Plone Sphinx Theme, run the following command.
 
@@ -84,7 +84,7 @@ make kitchen-sink-update
 Both Sphinx and Vale support overriding configuration options.
 The following examples serve as tips for spotting mistakes in your documentation when you have too many errors or warnings.
 
-In Sphinx, you can use the `SPHINXOPTS` environment variable to set [configuration options](https://www.sphinx-doc.org/en/master/usage/configuration.html) of [`sphinx-build`](https://www.sphinx-doc.org/en/master/man/sphinx-build.html).
+In Sphinx, you can use the `SPHINXOPTS` environment variable to set [configuration options](https://www.sphinx-doc.org/en/master/usage/configuration.html){octicon}`link-external;1em;sd-text-info` of [`sphinx-build`](https://www.sphinx-doc.org/en/master/man/sphinx-build.html).
 Syntax is in the following form.
 
 ```shell

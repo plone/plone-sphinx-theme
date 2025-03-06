@@ -9,8 +9,8 @@ myst:
 
 # Extensions
 
-Plone Sphinx Theme is configured with several [Sphinx](https://www.sphinx-doc.org/en/master/) and [MyST](https://myst-parser.readthedocs.io/en/latest/) extensions.
-The [Plone 6 documentation](https://6.docs.plone.org/) uses all of these extensions.
+Plone Sphinx Theme is configured with several [Sphinx](https://www.sphinx-doc.org/en/master/){octicon}`link-external;1em;sd-text-info` and [MyST](https://myst-parser.readthedocs.io/en/latest/){octicon}`link-external;1em;sd-text-info` extensions.
+The [Plone 6 documentation](https://6.docs.plone.org/){octicon}`link-external;1em;sd-text-info` uses all of these extensions.
 
 ```{seealso}
 See each extension's documentation for MyST examples and display of its elements.
@@ -39,7 +39,7 @@ These extensions are built in and can be activated by respective entries in the 
     It's used by {doc}`plone:plone.api/index`.
 -   [`sphinx.ext.autosummary`](https://www.sphinx-doc.org/en/master/usage/extensions/autosummary.html) generates function/method/attribute summary lists.
     It's used by {doc}`plone:plone.api/index`.
--   [`sphinx.ext.graphviz`](https://www.sphinx-doc.org/en/master/usage/extensions/graphviz.html) allows you to embed [Graphviz](https://graphviz.org/download/) graphs in your documents.
+-   [`sphinx.ext.graphviz`](https://www.sphinx-doc.org/en/master/usage/extensions/graphviz.html) allows you to embed [Graphviz](https://graphviz.org/download/){octicon}`link-external;1em;sd-text-info` graphs in your documents.
 -   [`sphinx.ext.ifconfig`](https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html) includes content based on configuration.
 -   [`sphinx.ext.intersphinx`](https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html) provides linking between separate projects that use Sphinx for documentation.
 -   [`sphinx.ext.todo`](https://www.sphinx-doc.org/en/master/usage/extensions/todo.html) adds support for todo items.
@@ -47,13 +47,13 @@ These extensions are built in and can be activated by respective entries in the 
     It's used by {doc}`plone:plone.api/index`.
 -   [`sphinx_copybutton`](https://sphinx-copybutton.readthedocs.io/en/latest/index.html)  adds a little "copy" button to the right of code blocks.
 -   [`sphinx_reredirects`](https://documatt.com/sphinx-reredirects/) handles redirects for moved pages.
--   [`sphinx_sitemap`](https://pypi.org/project/sphinx-sitemap/) generates multiversion and multilanguage [sitemaps.org](https://www.sitemaps.org/protocol.html) compliant sitemaps.
+-   [`sphinx_sitemap`](https://pypi.org/project/sphinx-sitemap/) generates multiversion and multilanguage [sitemaps.org](https://www.sitemaps.org/protocol.html){octicon}`link-external;1em;sd-text-info` compliant sitemaps.
 -   [`sphinxcontrib.httpdomain`](https://sphinxcontrib-httpdomain.readthedocs.io/en/stable/) provides a Sphinx domain for describing HTTP APIs.
     It's used by Plone's {doc}`plone:plone.restapi/docs/source/index`.
 -   [`sphinxcontrib.httpexample`](https://sphinxcontrib-httpexample.readthedocs.io/en/latest/) enhances `sphinxcontrib-httpdomain` by generating RESTful HTTP API call examples for different tools from a single HTTP request example.
     Supported tools include [`curl`](https://curl.se/), [`wget`](https://www.gnu.org/software/wget/), [`httpie`](https://httpie.io/), and [`python-requests`](https://requests.readthedocs.io/en/latest/).
     It's used by Plone's {doc}`plone:plone.restapi/docs/source/index`.
--   [`sphinxcontrib.mermaid`](https://pypi.org/project/sphinxcontrib-mermaid/) allows you to embed [Mermaid](https://mermaid.js.org/) graphs in your documents, including general flowcharts, sequence diagrams, and Gantt charts.
+-   [`sphinxcontrib.mermaid`](https://pypi.org/project/sphinxcontrib-mermaid/) allows you to embed [Mermaid](https://mermaid.js.org/){octicon}`link-external;1em;sd-text-info` graphs in your documents, including general flowcharts, sequence diagrams, and Gantt charts.
 -   [`sphinxcontrib.video`](https://pypi.org/project/sphinxcontrib-video/) allows you to embed local videos as defined by the HTML5 standard.
--   [`sphinxcontrib.youtube`](https://pypi.org/project/sphinxcontrib-video/) allows you to embed remotely hosted videos from [YouTube](https://www.youtube.com/), [Vimeo](https://vimeo.com/), or [PeerTube](https://joinpeertube.org/).
--   [`sphinxext.opengraph`](https://pypi.org/project/sphinxext-opengraph/) generates [OpenGraph metadata](https://ogp.me/).
+-   [`sphinxcontrib.youtube`](https://pypi.org/project/sphinxcontrib-video/) allows you to embed remotely hosted videos from [YouTube](https://www.youtube.com/){octicon}`link-external;1em;sd-text-info`, [Vimeo](https://vimeo.com/){octicon}`link-external;1em;sd-text-info`, or [PeerTube](https://joinpeertube.org/){octicon}`link-external;1em;sd-text-info`.
+-   [`sphinxext.opengraph`](https://pypi.org/project/sphinxext-opengraph/) generates [OpenGraph metadata](https://ogp.me/){octicon}`link-external;1em;sd-text-info`.
