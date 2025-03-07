@@ -11,8 +11,8 @@ myst:
 
 This reference document describes the file system structure of Plone Sphinx Theme, and the purpose of its files and directories.
 
-Plone Sphinx Theme uses [Sphinx Theme Builder](https://sphinx-theme-builder.readthedocs.io/en/latest/){octicon}`link-external;1em;sd-text-info` for compiling static assets and previewing design changes.
-Plone Sphinx Theme's file structure follows [that of Sphinx Theme Builder](https://sphinx-theme-builder.readthedocs.io/en/latest/filesystem-layout/){octicon}`link-external;1em;sd-text-info`, with some slight variations.
+Plone Sphinx Theme uses [Sphinx Theme Builder](https://sphinx-theme-builder.readthedocs.io/en/latest/) for compiling static assets and previewing design changes.
+Plone Sphinx Theme's file structure follows [that of Sphinx Theme Builder](https://sphinx-theme-builder.readthedocs.io/en/latest/filesystem-layout/), with some slight variations.
 
 ```text
 .

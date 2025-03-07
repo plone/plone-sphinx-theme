@@ -9,9 +9,9 @@ myst:
 
 # Plone Sphinx Theme
 
-[Plone Sphinx Theme](https://github.com/plone/plone-sphinx-theme){octicon}`link-external;1em;sd-text-info` is the official Sphinx theme for [documentation of Plone 6](https://6.docs.plone.org/){octicon}`link-external;1em;sd-text-info`, [Plone Conference trainings](https://training.plone.org/){octicon}`link-external;1em;sd-text-info`, and documentation of various Plone packages.
+[Plone Sphinx Theme](https://github.com/plone/plone-sphinx-theme) is the official Sphinx theme for [documentation of Plone 6](https://6.docs.plone.org/), [Plone Conference trainings](https://training.plone.org/), and documentation of various Plone packages.
 
-It uses [Markedly Structured Text (MyST)](https://myst-parser.readthedocs.io/en/latest/){octicon}`link-external;1em;sd-text-info`, a rich and extensible flavor of Markdown for authoring documentation that combines the simplicity of CommonMark with the features of reStructuredText.
+It uses [Markedly Structured Text (MyST)](https://myst-parser.readthedocs.io/en/latest/), a rich and extensible flavor of Markdown for authoring documentation that combines the simplicity of CommonMark with the features of reStructuredText.
 
 Plone Sphinx Theme requires Python {SUPPORTED_PYTHON_VERSIONS}.
 
