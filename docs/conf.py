@@ -395,14 +395,15 @@ redirects = {
 }
 
 
-# -- Options for HTML help output -------------------------------------------------
-
 # -- sphinx-tippy configuration ----------------------------------
 tippy_props = {
     "placement": "auto",
     "interactive": True,
 }
 tippy_anchor_parent_selector = "article.bd-article"
+
+
+# -- Options for HTML help output -------------------------------------------------
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = "PloneDocumentation"
