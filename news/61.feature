@@ -1,0 +1,1 @@
+Indicate external links with an external link icon using custom style. @Manas-Kenge
