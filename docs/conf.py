@@ -271,7 +271,6 @@ html_title = "%(project)s v%(release)s" % {"project": project, "release": releas
 # If false, no index is generated.
 html_use_index = True
 
-# html_css_files = ["custom.css", ("print.css", {"media": "print"})]
 html_css_files = ["tippy.css"]
 # html_js_files = [
 #     "patch_scrollToActive.js",

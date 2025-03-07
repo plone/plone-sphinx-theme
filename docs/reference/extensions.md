@@ -56,3 +56,4 @@ These extensions are built in and can be activated by respective entries in the 
 -   [`sphinxcontrib.video`](https://pypi.org/project/sphinxcontrib-video/) allows you to embed local videos as defined by the HTML5 standard.
 -   [`sphinxcontrib.youtube`](https://pypi.org/project/sphinxcontrib-video/) allows you to embed remotely hosted videos from [YouTube](https://www.youtube.com/), [Vimeo](https://vimeo.com/), or [PeerTube](https://joinpeertube.org/).
 -   [`sphinxext.opengraph`](https://pypi.org/project/sphinxext-opengraph/) generates [OpenGraph metadata](https://ogp.me/).
+-   [`sphinx_tippy`](https://sphinx-tippy.readthedocs.io/en/latest/) provides hover tips in your documentation.
