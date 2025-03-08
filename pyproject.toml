@@ -61,6 +61,7 @@ docs = [
   "sphinxcontrib-video",
   "sphinxcontrib-youtube",
   "sphinxext-opengraph",
+  "sphinx_tippy",
 
 #  Commented from Sphinx Book Theme.
 #  Uncomment to install, then configure in conf.py.
