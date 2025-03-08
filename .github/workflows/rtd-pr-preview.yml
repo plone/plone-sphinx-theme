@@ -12,7 +12,7 @@ on:
       - .readthedocs.yaml
       - .vale.ini
       - Makefile
-      - requirements-docs.txt
+      - uv.lock
 
 permissions:
   pull-requests: write
@@ -21,6 +21,12 @@ jobs:
   documentation-links:
     runs-on: ubuntu-latest
     steps:
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          # Install a specific version of uv.
+          version: "0.6.5"
+
       - uses: readthedocs/actions/preview@v1
         with:
           project-slug: "plone-sphinx-theme"
