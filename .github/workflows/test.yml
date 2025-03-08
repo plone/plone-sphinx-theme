@@ -14,8 +14,7 @@ on:
       - '.github/workflows/test.yml'
       - '.readthedocs.yaml'
       - '.vale.ini'
-      - 'requirements.txt'
-      - 'requirements-docs.txt'
+      - 'uv.lock'
 
 jobs:
   docs:
@@ -27,18 +26,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python ${{ matrix.python-version }}
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          # Install a specific version of uv.
+          version: "0.6.5"
+
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-          cache: 'pip'
-          cache-dependency-path: 'requirements-docs.txt'
 
-      - name: Create Python virtual environment
-        run: pip install virtualenv
-
-      - name: pip install requirements
-        run: pip install -r requirements-docs.txt
+      - name: Create Python virtual environment, install requirements
+        run: make dev
 
       - name: Check for broken links
         run: make linkcheckbroken
