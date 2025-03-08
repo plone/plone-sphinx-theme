@@ -396,11 +396,13 @@ redirects = {
 
 
 # -- sphinx-tippy configuration ----------------------------------
-tippy_props = {
-    "placement": "auto",
-    "interactive": True,
-}
 tippy_anchor_parent_selector = "article.bd-article"
+tippy_enable_doitips = False
+tippy_enable_wikitips = False
+tippy_props = {
+    "interactive": True,
+    "placement": "auto-end",
+}
 
 
 # -- Options for HTML help output -------------------------------------------------
