@@ -18,8 +18,7 @@ build:
     # If there are no changes (git diff exits with 0) we force the command to return with 183.
     # This is a special exit code on Read the Docs that will cancel the build immediately.
     - |
-      if [ "$READTHEDOCS_VERSION_TYPE" = "external" ] && git diff --quiet origin/main -- docs/ .readthedocs.yaml \
-      requirements.txt requirements-docs.txt \
+      if [ "$READTHEDOCS_VERSION_TYPE" = "external" ] && git diff --quiet origin/main -- docs/ styles/ .readthedocs.yaml .vale.ini Makefile uv.lock \
       src/plone_sphinx_theme/theme/plone-sphinx-theme/static/styles/plone-sphinx-theme.css \
       src/plone_sphinx_theme/theme/plone-sphinx-theme/static/scripts/plone-sphinx-theme.js;
       then

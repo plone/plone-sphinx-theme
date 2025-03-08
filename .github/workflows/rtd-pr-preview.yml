@@ -12,7 +12,7 @@ on:
       - .readthedocs.yaml
       - .vale.ini
       - Makefile
-      - requirements-docs.txt
+      - uv.lock
 
 permissions:
   pull-requests: write
