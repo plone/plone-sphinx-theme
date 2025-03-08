@@ -144,8 +144,17 @@ serve:  ## Compile static assets, build and serve the docs, and reload the brows
 compile:  ## Compile static assets
 	@uv run stb compile
 
+.PHONY: rtd-prepare
+rtd-prepare:  ## Prepare environment on Read the Docs
+	asdf plugin add uv
+	asdf install uv latest
+	asdf global uv latest
+	uv python install ">=3.11,<3.13"
+	uv venv
+	uv sync
+
 .PHONY: rtd-pr-preview
-rtd-pr-preview: dev  ## Build pull request preview on Read the Docs
+rtd-pr-preview: rtd-prepare dev  ## Build pull request preview on Read the Docs
 	cd $(DOCS_DIR) && $(SPHINXBUILD) -b html $(ALLSPHINXOPTS) ${READTHEDOCS_OUTPUT}/html/
 
 .PHONY: release
