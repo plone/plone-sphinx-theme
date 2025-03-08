@@ -1,0 +1,1 @@
+Replace uv's pip API usage with calling uv directly. @stevepiercy
