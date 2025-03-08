@@ -1,1 +1,1 @@
-Added Tippy for tooltips to preview link content. @Manas-Kenge
+Added sphinx-tippy for tooltips to preview link content. @Manas-Kenge
