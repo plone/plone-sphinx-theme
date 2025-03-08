@@ -445,6 +445,7 @@ source_replacements = {
     "{PLONE_BACKEND_PATCH_VERSION}": "6.1.0",
     "{NVM_VERSION}": "0.39.5",
     "{SUPPORTED_PYTHON_VERSIONS}": "3.10, 3.11, 3.12, or 3.13",
+    "{SUPPORTED_DEV_PYTHON_VERSIONS}": "3.11, 3.12, or 3.13",
 }
 
 

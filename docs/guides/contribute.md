@@ -15,7 +15,7 @@ It also covers the essential commands for building and previewing
 
 ## Prerequisites
 
--   Python {SUPPORTED_PYTHON_VERSIONS}
+-   Python {SUPPORTED_DEV_PYTHON_VERSIONS}
 -   {term}`GNU Make`
 
 
