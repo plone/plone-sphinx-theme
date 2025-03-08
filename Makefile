@@ -149,12 +149,9 @@ rtd-prepare:  ## Prepare environment on Read the Docs
 	asdf plugin add uv
 	asdf install uv latest
 	asdf global uv latest
-	uv python install ">=3.11,<3.13"
-	uv venv
-	uv sync
 
 .PHONY: rtd-pr-preview
-rtd-pr-preview: rtd-prepare dev  ## Build pull request preview on Read the Docs
+rtd-pr-preview: rtd-prepare dev ## Build pull request preview on Read the Docs
 	cd $(DOCS_DIR) && $(SPHINXBUILD) -b html $(ALLSPHINXOPTS) ${READTHEDOCS_OUTPUT}/html/
 
 .PHONY: release
