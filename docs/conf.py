@@ -70,13 +70,13 @@ extensions = [
     "sphinx_examples",
     "sphinx_reredirects",
     "sphinx_sitemap",
+    "sphinx_tippy",
     "sphinxcontrib.httpdomain",  # plone.restapi
     "sphinxcontrib.httpexample",  # plone.restapi
     "sphinxcontrib.mermaid",
     "sphinxcontrib.video",
     "sphinxcontrib.youtube",
     "sphinxext.opengraph",
-    "sphinx_tippy",
 ]
 
 # If true, the Docutils Smart Quotes transform, originally based on SmartyPants
