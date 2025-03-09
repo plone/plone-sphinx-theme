@@ -24,8 +24,8 @@ See each extension's documentation for MyST examples and display of its elements
 -   [`colon_fence`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#code-fences-using-colons) supports the use of three colons `:::` as delimiters to denote code fences, instead of three backticks `` ``` ``.
 -   [`substitution`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#substitutions-with-jinja2) supports the use of substitutions with Jinja2.
 -   [`html_image`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#html-images) supports the use of HTML `<img>` tags.
--   [`attrs_inline`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#inline-attributes) supports parsing of inline attributes before certain syntaxes.
--   [`attrs_block`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#inline-block) supports parsing of block attributes before certain syntaxes.
+-   [`attrs_inline`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#inline-attributes) supports parsing of inline attributes before certain syntax.
+-   [`attrs_block`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#inline-block) supports parsing of block attributes before certain syntax.
 
 
 ## Sphinx
