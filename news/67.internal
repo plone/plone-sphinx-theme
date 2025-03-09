@@ -1,1 +1,2 @@
 Replace uv's pip API usage with calling uv directly. @stevepiercy
+Add Python 3.10 to the test matrix. @stevepiercy
