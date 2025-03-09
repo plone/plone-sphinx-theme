@@ -18,6 +18,7 @@ ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 VALEFILES       := $(shell find $(DOCS_DIR) -type f -name "*.md" -print)
 VALEOPTS        ?=
+PYTHONVERSION   = >=3.11,<3.14
 
 # Add the following 'help' target to your Makefile
 # And add help text after each target name starting with '\#\#'
@@ -29,8 +30,8 @@ help:  # This help message
 # environment management
 .PHONY: dev
 dev:  ## Install required Python, create Python virtual environment, and install package requirements
-	@uv python install ">=3.11,<3.14"
-	@uv venv
+	@uv python install "$(PYTHONVERSION)"
+	@uv venv --python "$(PYTHONVERSION)"
 	@uv sync
 
 .PHONY: sync
