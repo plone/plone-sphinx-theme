@@ -29,7 +29,7 @@ help:  # This help message
 # environment management
 .PHONY: dev
 dev:  ## Install required Python, create Python virtual environment, and install package requirements
-	@uv python install ">=3.11,<3.13"
+	@uv python install ">=3.11,<3.14"
 	@uv venv
 	@uv sync
 
