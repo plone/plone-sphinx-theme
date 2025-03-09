@@ -15,8 +15,13 @@ It also covers the essential commands for building and previewing
 
 ## Prerequisites
 
--   Python {SUPPORTED_DEV_PYTHON_VERSIONS}
+-   `uv`
 -   {term}`GNU Make`
+
+
+### `uv`
+
+Install `uv` using the [standalone installer method](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer).
 
 
 ## Install Plone Sphinx Theme
@@ -33,7 +38,7 @@ Change your working directory to the cloned repository.
 cd plone-sphinx-theme
 ```
 
-Then create a Python virtual environment, install requirements for development, and install the package in development mode with a single command.
+Then install a supported Python version for development, create a Python virtual environment, install requirements for development, and install the package in development mode with a single command.
 
 ```shell
 make dev
@@ -68,7 +73,7 @@ make kitchen-sink-update
 
 ### Override build configuration options
 
-Both Sphinx and vale support overriding configuration options.
+Both Sphinx and Vale support overriding configuration options.
 The following examples serve as tips for spotting mistakes in your documentation when you have too many errors or warnings.
 
 In Sphinx, you can use the `SPHINXOPTS` environment variable to set [configuration options](https://www.sphinx-doc.org/en/master/usage/configuration.html) of [`sphinx-build`](https://www.sphinx-doc.org/en/master/man/sphinx-build.html).
@@ -84,8 +89,8 @@ The following example shows how to clean then build a live HTML preview of the d
 make SPHINXOPTS="-D suppress_warnings='misc.highlighting_failure'" clean livehtml
 ```
 
-You can also pass options to vale in the `VALEOPTS` environment variable.
-In the following example, vale will not return a non-zero exit code when there are errors and will display warnings or errors only, not suggestions.
+You can also pass options to Vale in the `VALEOPTS` environment variable.
+In the following example, Vale will not return a non-zero exit code when there are errors and will display warnings or errors only, not suggestions.
 
 ```shell
 make vale VALEOPTS="--no-exit --minAlertLevel='warning'"
@@ -167,26 +172,19 @@ You can edit these files located in the directory {file}`src/plone_sphinx_theme/
 
 ## Update requirements
 
-When you update requirements in {file}`pyproject.toml`, you need to update the requirements files with `uv pip compile`.
+Requirements are managed with `uv` in the {file}`uv.lock`.
+They are declared in the {file}`pyproject.toml`.
 
-Update the {file}`requirements.txt` file.
+Update requirements in your development environment.
 
 ```shell
-uv pip compile pyproject.toml -o requirements.txt
+uv sync
 ```
 
-Update the {file}`requirements-docs.txt` file.
-This requirements file is used to build Plone Sphinx Theme documentation.
+Add a development requirement.
 
 ```shell
-uv pip compile pyproject.toml --extra docs -o requirements-docs.txt
-```
-
-Update the {file}`requirements-dev.txt` file.
-This requirements file is used to develop Plone Sphinx Theme and preview the theme's documentation.
-
-```shell
-uv pip compile pyproject.toml --extra docs --extra dev -o requirements-dev.txt
+uv add --dev my-requirement
 ```
 
 
