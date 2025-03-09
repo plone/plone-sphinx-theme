@@ -25,7 +25,7 @@ See each extension's documentation for MyST examples and display of its elements
 -   [`substitution`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#substitutions-with-jinja2) supports the use of substitutions with Jinja2.
 -   [`html_image`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#html-images) supports the use of HTML `<img>` tags.
 -   [`attrs_inline`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#inline-attributes) supports parsing of inline attributes before certain syntax.
--   [`attrs_block`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#inline-block) supports parsing of block attributes before certain syntax.
+-   [`attrs_block`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#block-attributes) supports parsing of block attributes before certain syntax.
 
 
 ## Sphinx
