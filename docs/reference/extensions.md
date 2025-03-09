@@ -36,6 +36,7 @@ These extensions are built in and can be activated by respective entries in the 
 -   [`sphinx-design`](https://sphinx-design.readthedocs.io/en/latest/), with a configuration name of `sphinx_design`, adds grids, cards, icons, badges, buttons, tabs, and dropdowns.
 -   [`sphinx-examples`](https://ebp-sphinx-examples.readthedocs.io/en/latest/) adds "example snippets" that allow you to show off source Markdown and the result of rendering it in Sphinx.
 -   [`sphinx-notfound-page`](https://sphinx-notfound-page.readthedocs.io/en/latest/index.html), with a configuration name of `notfound.extension`, creates a custom 404 page and helps generate proper static resource links to render the page.
+-   [`sphinx-tippy`](https://sphinx-tippy.readthedocs.io/en/latest/), with a configuration name of `sphinx_tippy`, provides hover tips in your documentation.
 -   [`sphinx.ext.autodoc`](https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html) pulls in documentation from Python docstrings to generate reStructuredText which in turn gets parsed by Sphinx and rendered to the output format.
     It's used by {doc}`plone:plone.api/index`.
 -   [`sphinx.ext.autosummary`](https://www.sphinx-doc.org/en/master/usage/extensions/autosummary.html) generates function/method/attribute summary lists.

@@ -11,7 +11,7 @@ keywords = [
 ]
 dynamic = ["version"]
 readme = "README.md"
-requires-python = ">=3.9,<3.14"
+requires-python = ">=3.10,<3.14"
 license = { file = "LICENSE" }
 maintainers = [
   { name = "Steve Piercy", email = "spiercy@plone.org" },
@@ -61,6 +61,7 @@ docs = [
   "sphinxcontrib-video",
   "sphinxcontrib-youtube",
   "sphinxext-opengraph",
+  "sphinx_tippy",
 
 #  Commented from Sphinx Book Theme.
 #  Uncomment to install, then configure in conf.py.

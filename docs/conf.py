@@ -70,6 +70,7 @@ extensions = [
     "sphinx_examples",
     "sphinx_reredirects",
     "sphinx_sitemap",
+    "sphinx_tippy",
     "sphinxcontrib.httpdomain",  # plone.restapi
     "sphinxcontrib.httpexample",  # plone.restapi
     "sphinxcontrib.mermaid",
@@ -396,6 +397,16 @@ redirects = {
 }
 
 
+# -- sphinx-tippy configuration ----------------------------------
+tippy_anchor_parent_selector = "article.bd-article"
+tippy_enable_doitips = False
+tippy_enable_wikitips = False
+tippy_props = {
+    "interactive": True,
+    "placement": "auto-end",
+}
+
+
 # -- Options for HTML help output -------------------------------------------------
 
 # Output file base name for HTML help builder.
@@ -436,6 +447,7 @@ source_replacements = {
     "{PLONE_BACKEND_PATCH_VERSION}": "6.1.0",
     "{NVM_VERSION}": "0.39.5",
     "{SUPPORTED_PYTHON_VERSIONS}": "3.10, 3.11, 3.12, or 3.13",
+    "{SUPPORTED_DEV_PYTHON_VERSIONS}": "3.11, 3.12, or 3.13",
 }
 
 

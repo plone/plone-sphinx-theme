@@ -8,6 +8,16 @@
 
 <!-- towncrier release notes start -->
 
+## 1.2.0 (2025-03-07)
+
+### Internal changes
+
+- Add dependabot to update GitHub Actions versions. @stevepiercy [Issue #64](https://github.com/plone/plone-sphinx-theme/issues/64)
+
+### New features
+
+- Added sphinx-tippy for tooltips to preview link content. @Manas-Kenge [Issue #60](https://github.com/plone/plone-sphinx-theme/issues/60)
+
 ## 1.1.1 (2025-03-06)
 
 ### Internal changes
