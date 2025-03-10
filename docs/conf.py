@@ -314,6 +314,8 @@ sitemap_filename = "sitemap-custom.xml"
 # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
 myst_enable_extensions = [
     "deflist",  # Support definition lists.
+    "attrs_inline", # Support parsing of inline attributes.
+    "attrs_block", # Support parsing of block attributes.
     # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#definition-lists
     "linkify",  # Identify "bare" web URLs and add hyperlinks.
     "colon_fence",  # You can also use ::: delimiters to denote code fences,\
