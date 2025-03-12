@@ -313,14 +313,13 @@ sitemap_filename = "sitemap-custom.xml"
 # For more information see:
 # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
 myst_enable_extensions = [
-    "deflist",  # Support definition lists.
-    # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#definition-lists
-    "linkify",  # Identify "bare" web URLs and add hyperlinks.
-    "colon_fence",  # You can also use ::: delimiters to denote code fences,\
-    #  instead of ```.
-    "substitution",  # plone.restapi \
-    # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#substitutions-with-jinja2
+    "attrs_block", # Support parsing of block attributes.
+    "attrs_inline", # Support parsing of inline attributes.
+    "colon_fence",  # You can also use ::: delimiters to denote code fences, instead of ```.
+    "deflist",  # Support definition lists. https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#definition-lists
     "html_image",  # For inline images. See https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#html-images
+    "linkify",  # Identify "bare" web URLs and add hyperlinks.
+    "substitution",  # Use Jinja2 for substitutions. https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#substitutions-with-jinja2
 ]
 
 myst_substitutions = {

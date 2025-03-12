@@ -19,12 +19,13 @@ See each extension's documentation for MyST examples and display of its elements
 
 ## MyST
 
--   [`deflist`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#definition-lists) supports definition lists.
--   [`linkify`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#linkify) identifies "bare" web URLs and adds hyperlinks.
--   [`colon_fence`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#code-fences-using-colons) supports the use of three colons `:::` as delimiters to denote code fences, instead of three backticks `` ``` ``.
--   [`substitution`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#substitutions-with-jinja2) supports the use of substitutions with Jinja2.
+-   [`attrs_block`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#block-attributes) supports parsing of block attributes before certain block syntaxes.
+-   [`attrs_inline`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#inline-attributes) supports parsing of inline attributes before certain inline syntaxes.
+-   [`colon_fence`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#code-fences-using-colons) supports the use of three colons `:::` as delimiters to denote code -   [`deflist`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#definition-lists) supports definition lists.
 -   [`html_image`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#html-images) supports the use of HTML `<img>` tags.
-
+-   [`linkify`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#linkify) identifies "bare" web URLs and adds hyperlinks.
+fences, instead of three backticks `` ``` ``.
+-   [`substitution`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#substitutions-with-jinja2) supports the use of substitutions with Jinja2.
 
 ## Sphinx
 
