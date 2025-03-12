@@ -44,6 +44,14 @@ Then install a supported Python version for development, create a Python virtual
 make dev
 ```
 
+## Change log entry
+
+Plone Sphinx Theme requires that you include a change log entry or news item with your contribution.
+Your attribution must be in the format of `@github_username`.
+
+```{seealso}
+For details see {ref}`contributing-change-log-label`.
+```
 
 ## Edit documentation
 
