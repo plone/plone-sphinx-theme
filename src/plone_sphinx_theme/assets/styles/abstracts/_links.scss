@@ -4,48 +4,11 @@ src/pydata_sphinx_theme/assets/styles/abstracts/_links.scss
 /*********************************************
 * Link Styles
 *********************************************/
-a[target="_blank"]::after,
-a[href^="http://"]::after,
-a[href^="https://"]::after {
-  margin-left: 0.3em;
-  display: inline-block;
-  content: var(--pst-icon-external-link);
-  white-space: nowrap;
-  font: var(--fa-font-solid);
-  font-size: .75em;
-}
-
-  @mixin link-style-default {
-    word-wrap: break-word;
-    color: var(--pst-color-link);
-  
-    @include link-decoration;
-  
-    &:hover {
-      color: var(--pst-color-link-hover);
-  
-      @include link-decoration-hover;
-    }
-
-    &:active {
-      color: var(--pst-color-link);
-    }
-  
-    &:visited {
-      color: var(--pst-color-link);
-  
-      &:hover {
-        color: var(--pst-color-link-hover);
-      }
-    }
-  
-    &.external::after {
-      margin-left: 0.3em;
-      display: inline-block;
-      content: var(--pst-icon-external-link);
-      white-space: nowrap;
-      font: var(--fa-font-solid);
-      font-size: .75em;
-    }
+  .reference.external::after {
+    margin-left: 0.3em;
+    display: inline-block;
+    content: var(--pst-icon-external-link);
+    white-space: nowrap;
+    font: var(--fa-font-solid);
+    font-size: .75em;
   }
-
