@@ -25,7 +25,9 @@ See each extension's documentation for MyST examples and display of its elements
 -   [`html_image`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#html-images) supports the use of HTML `<img>` tags.
 -   [`linkify`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#linkify) identifies "bare" web URLs and adds hyperlinks.
 fences, instead of three backticks `` ``` ``.
+-   [`strikethrough`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#syntax-strikethrough) supports the use of strikethrough markup.
 -   [`substitution`](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#substitutions-with-jinja2) supports the use of substitutions with Jinja2.
+
 
 ## Sphinx
 
