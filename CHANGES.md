@@ -8,6 +8,25 @@
 
 <!-- towncrier release notes start -->
 
+## 1.3.0 (2025-03-13)
+
+### Internal changes
+
+- Clean up requirements between using the theme for a project and developing and contributing to Plone Sphinx Theme. @stevepiercy [Issue #66](https://github.com/plone/plone-sphinx-theme/issues/66)
+- Replace uv's pip API usage with calling uv directly. @stevepiercy
+  Add Python 3.10 to the test matrix. @stevepiercy [Issue #67](https://github.com/plone/plone-sphinx-theme/issues/67)
+
+### New features
+
+- Add `attrs_inline` and `attrs_block` to list of MyST extensions. @ujsquared [Issue #52](https://github.com/plone/plone-sphinx-theme/issues/52)
+- Indicate external links with an external link icon using custom style. @Manas-Kenge [Issue #61](https://github.com/plone/plone-sphinx-theme/issues/61)
+
+### Documentation
+
+- Added change log section under contribution guide. @Manas-Kenge [Issue #65](https://github.com/plone/plone-sphinx-theme/issues/65)
+- Add documentation of `uv` usage for installation and management of packages dependencies. Also fix casing of Vale. @stevepiercy [Issue #67](https://github.com/plone/plone-sphinx-theme/issues/67)
+- Update the kitchen sink. @stevepiercy [Issue #69](https://github.com/plone/plone-sphinx-theme/issues/69)
+
 ## 1.2.0 (2025-03-07)
 
 ### Internal changes

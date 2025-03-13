@@ -1,1 +1,0 @@
-Added change log section under contribution guide. @Manas-Kenge
