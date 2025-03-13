@@ -43,6 +43,7 @@ RichText
 Sass
 Schuko
 subfolder
+syntaxes
 todo
 transpile[dr]{0,1}
 unregister
