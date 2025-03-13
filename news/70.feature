@@ -1,1 +1,0 @@
-Add strikethrough support. @stevepiercy

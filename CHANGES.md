@@ -8,6 +8,16 @@
 
 <!-- towncrier release notes start -->
 
+## 1.4.0 (2025-03-13)
+
+### New features
+
+- Add strikethrough support. @stevepiercy [Issue #70](https://github.com/plone/plone-sphinx-theme/issues/70)
+
+### Bug fixes
+
+- Allow the plural form, syntaxes. @stevepiercy [Issue #70](https://github.com/plone/plone-sphinx-theme/issues/70)
+
 ## 1.3.0 (2025-03-13)
 
 ### Internal changes
