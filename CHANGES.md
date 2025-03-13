@@ -14,7 +14,7 @@
 
 - Clean up requirements between using the theme for a project and developing and contributing to Plone Sphinx Theme. @stevepiercy [Issue #66](https://github.com/plone/plone-sphinx-theme/issues/66)
 - Replace uv's pip API usage with calling uv directly. @stevepiercy
-  Add Python 3.10 to the test matrix. @stevepiercy [Issue #67](https://github.com/plone/plone-sphinx-theme/issues/67)
+- Add Python 3.10 to the test matrix. @stevepiercy [Issue #67](https://github.com/plone/plone-sphinx-theme/issues/67)
 
 ### New features
 
