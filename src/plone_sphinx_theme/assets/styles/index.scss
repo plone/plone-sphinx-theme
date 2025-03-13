@@ -8,6 +8,7 @@
 @use "sphinx-book-theme/index";
 
 // Re-usable components across the theme
+@use "abstracts/links";
 @use "components/icon-links";
 @use "components/title";
 @use "components/versionmodified";
