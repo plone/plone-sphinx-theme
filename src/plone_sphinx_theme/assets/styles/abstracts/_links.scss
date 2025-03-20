@@ -12,3 +12,7 @@ src/pydata_sphinx_theme/assets/styles/abstracts/_links.scss
     font: var(--fa-font-solid);
     font-size: .75em;
   }
+
+  a.reference.external:has(img[src])::after {
+    display: none;
+}
