@@ -4,15 +4,15 @@ src/pydata_sphinx_theme/assets/styles/abstracts/_links.scss
 /*********************************************
 * Link Styles
 *********************************************/
-  .reference.external::after {
-    margin-left: 0.3em;
-    display: inline-block;
-    content: var(--pst-icon-external-link);
-    white-space: nowrap;
-    font: var(--fa-font-solid);
-    font-size: .75em;
-  }
+.reference.external::after {
+  margin-left: 0.3em;
+  display: inline-block;
+  content: var(--pst-icon-external-link);
+  white-space: nowrap;
+  font: var(--fa-font-solid);
+  font-size: .75em;
+}
 
-  a.reference.external:has(img[src])::after {
-    display: none;
+a.reference.external:has(img[src])::after {
+  display: none;
 }
