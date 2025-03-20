@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.4.1 (2025-03-20)
+
+### Bug fixes
+
+- Remove external link icon for images. @Manas-Kenge [Issue #72](https://github.com/plone/plone-sphinx-theme/issues/72)
+
 ## 1.4.0 (2025-03-13)
 
 ### New features
