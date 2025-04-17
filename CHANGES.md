@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.4.3 (2025-04-17)
+
+### Bug fixes
+
+- Allow "strikethrough" as a valid word. @stevepiercy [Issue #75](https://github.com/plone/plone-sphinx-theme/issues/75)
+
 ## 1.4.2 (2025-04-17)
 
 ### Internal changes
