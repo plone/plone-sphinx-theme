@@ -15,13 +15,13 @@ It also covers the essential commands for building and previewing
 
 ## Prerequisites
 
--   `uv`
+-   uv
 -   {term}`GNU Make`
 
 
-### `uv`
+### uv
 
-Install `uv` using the [standalone installer method](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer).
+Install uv using the [standalone installer method](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer).
 
 
 ## Install Plone Sphinx Theme

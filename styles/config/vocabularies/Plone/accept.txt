@@ -50,6 +50,7 @@ unregister
 UUID
 [Uu]ncomment
 [Uu]nhide
+uv
 validator
 [Vv]iewlet
 Volto
