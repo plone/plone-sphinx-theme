@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.4.2 (2025-04-17)
+
+### Internal changes
+
+- Add project URLs for issues, changelog, sponsor, Discord, Mastodon, and YouTube. @stevepiercy [Issue #73](https://github.com/plone/plone-sphinx-theme/issues/73)
+
 ## 1.4.1 (2025-03-20)
 
 ### Bug fixes
