@@ -7,7 +7,7 @@ from pathlib import Path
 from sphinx.application import Sphinx
 from sphinx.util import logging
 
-__version__ = "1.4.2"
+__version__ = "1.4.3.dev0"
 
 from sphinx_book_theme import update_context_with_repository_info, update_sourcename
 
