@@ -42,6 +42,7 @@ Razzle
 RichText
 Sass
 Schuko
+strikethrough
 subfolder
 syntaxes
 todo
