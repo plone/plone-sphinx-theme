@@ -351,6 +351,7 @@ myst_substitutions = {
 intersphinx_mapping = {
     "plone": ("https://6.docs.plone.org/", None),  # for imported packages
     "python": ("https://docs.python.org/3/", None),
+    "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
     "training": ("https://training.plone.org/", None),
     "training-2022": ("https://2022.training.plone.org/", None),
 }

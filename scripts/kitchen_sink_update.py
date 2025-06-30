@@ -27,7 +27,8 @@ for ifile in kitchen_sink_files:
     text = urlopen(url).read().decode()
     # The sphinx-themes docs expect Furo to be installed, so we overwrite w/ this path
     text = text.replace("src/furo", "src/plone_sphinx_theme")
-    text = text.replace(":any:`sphinx.ext.autodoc`", "``sphinx.ext.autodoc``")
+    # Remove after https://github.com/sphinx-themes/sphinx-themes.org/pull/177 is merged
+    text = text.replace("urllib.parse", "code")
     # Add introductory message directing people to Sphinx Themes
     if "index" in ifile:
         text = text.replace("============", "============\n\n" + EXTRA_MESSAGE)
