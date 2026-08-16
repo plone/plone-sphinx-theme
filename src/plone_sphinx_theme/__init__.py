@@ -1,15 +1,15 @@
 """
-A Bootstrap-based Sphinx theme for documentation of Plone packages and projects, inheriting from Sphinx Book Theme and PyData Sphinx Theme.
+A Bootstrap-based Sphinx theme for documentation of Plone packages and projects, inheriting from PyData Sphinx Theme.
 """
 import os
+from packaging.version import Version
 from pathlib import Path
+from typing import Dict
 
 from sphinx.application import Sphinx
 from sphinx.util import logging
 
 __version__ = "1.4.4.dev0"
-
-from sphinx_book_theme import update_context_with_repository_info, update_sourcename
 
 logger = logging.getLogger(__name__)
 
@@ -28,40 +28,20 @@ def update_general_config(app, config):
     config.templates_path.append(os.path.join(theme_dir, "components"))
 
 
-# def update_templates(app, pagename, templatename, context, doctree):
-#     """Update template names and assets for page build.
-#
-#     This is a copy of what the pydata theme does here to include a new section
-#     - https://github.com/pydata/pydata-sphinx-theme/blob/0a4894fab49befc59eb497811949a1d0ede626eb/src/pydata_sphinx_theme/__init__.py#L173 # noqa: E501
-#     """
-#     # Allow for more flexibility in template names
-#     template_sections = ["theme_footer_content_items"]
-#     for section in template_sections:
-#         if context.get(section):
-#             # Break apart `,` separated strings so we can use , in the defaults
-#             if isinstance(context.get(section), str):
-#                 context[section] = [
-#                     ii.strip() for ii in context.get(section).split(",")
-#                 ]
-#
-#             # Add `.html` to templates with no suffix
-#             for ii, template in enumerate(context.get(section)):
-#                 if not os.path.splitext(template)[1]:
-#                     context[section][ii] = template + ".html"
+def set_theme_version(
+        app: Sphinx, pagename: str, templatename: str, context, doctree
+) -> None:
+    """Update the theme_version context variable."""
+    context["pst_theme_version"] = Version(str(__version__)).base_version
 
 
-def setup(app: Sphinx):
+def setup(app: Sphinx) -> Dict[str, str]:
     # Register theme
     theme_dir = get_html_theme_path()
     # Configure for your theme
     app.add_html_theme("plone_sphinx_theme", str(theme_dir))
-    app.add_js_file("scripts/plone-sphinx-theme.js")
-
     # Events
-    # app.connect("builder-inited", update_sourcename)
-    # app.connect("builder-inited", update_context_with_repository_info)
-    # app.connect("html-page-context", update_templates)
-
+    app.connect("html-page-context", set_theme_version)
     # This extension has both theme-like and extension-like features.
     # Themes are initialised immediately before use, thus we cannot
     # rely on an event to set the config - the theme config must be
