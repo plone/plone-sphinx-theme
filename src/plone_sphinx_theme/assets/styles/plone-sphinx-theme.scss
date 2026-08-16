@@ -1,0 +1,30 @@
+/*! plone-sphinx-theme CSS
+ * GNU GPLv2 License
+ * Copyright (c) 2024, Plone Foundation
+ * All rights reserved.
+ */
+
+// By default, plone-sphinx-theme installs pydata-sphinx-theme as a dependency.
+// This way, overrides of the the PDST are easier to maintain.
+// Alternatively, you can use pydata-sphinx-theme SCSS as base by copying its source
+// files using the script `scripts/pdst_styles_update.py`.
+//@use "pydata_sphinx_theme/assets/styles/pydata-sphinx-theme.scss";
+
+// Re-usable components across the theme
+//@use "abstracts/links";
+//@use "components/icon-links";
+//@use "components/title";
+//@use "components/versionmodified";
+//
+//@use "content/admonitions";
+//@use "content/code";
+//@use "content/images";
+//@use "content/lists";
+//@use "content/spans";
+
+//@use "extensions/sphinx_design";
+//@use "extensions/tippy";
+//@use "extensions/todo";
+//@use "extensions/video";
+
+@use "sections/footer";

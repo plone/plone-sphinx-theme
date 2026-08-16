@@ -1,0 +1,15 @@
+/*
+ Override PyData Sphinx Theme.
+ */
+/*
+The footer has only start and end items, no center.
+The start is twice as wide as the end.
+ */
+.bd-footer {
+  .footer-items__start {
+    flex: 2 1 0;
+  }
+  .footer-items__end {
+    flex: 1 1 0;
+  }
+}
